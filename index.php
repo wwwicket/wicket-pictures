@@ -3,6 +3,7 @@
 echo '<h1>Assorted Wickets</h1>' . "\n";
 
 $images = array(
+   '35_wicket_starwars.jpg',
    'cricketstumps.jpg',
    'apachewicket.png'
 );
