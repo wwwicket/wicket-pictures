@@ -12,7 +12,7 @@ foreach ($images as $image) {
 }
 
 function showWicket($image) {
-    $imageurl = 'images/' . $image;
+    $imageurl = 'images/' . $fimage;
     $imagesize = getimagesize($imageurl);
     echo 'This is a wicket picture. It is ' . $imagesize[0] . 'x' . $imagesize[1] . ' pixels and its mime type is ' . $imagesize['mime'] . '<br/>' . "\n";
     echo '<img src="' . $imageurl . '"><br/><br/>' . "\n";
